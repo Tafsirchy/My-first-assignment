@@ -18,6 +18,7 @@ body{
     background-position: center;
     height: 700px;
     width: 100%;
+    
 }
 .nevigation {
     display: flex;
@@ -71,7 +72,7 @@ body{
     font-weight: bold;
     color: #252432;
 }
-/* see it in action */
+/* see it in action style */
 .section-1{
     display: flex;
     justify-content: space-between;
@@ -120,16 +121,16 @@ body{
     border-radius: 20px;
     padding: 80px 50px;
     padding-top: 40px;
-    /* box-sizing: border-box; */
 }
 .users{
     display: flex;
-    /* justify-content: space-around; */
     justify-content: center;
     gap: 40px;
     margin-top: 20px;
     align-items: flex-start;
     flex-wrap: wrap;
+    flex : 1 1 300px;
+    box-sizing: border-box;
 }
 .users div{
     text-align: center;
@@ -152,4 +153,69 @@ body{
     font-size: 1.8em;
     color: #252432;
     margin-bottom: 20px;
+}
+/* review style */
+.section-3{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.section-3 h2{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.container-reviews{
+    display: flex;
+    gap: 20px;
+    padding: 0 10px;
+}
+.card{
+    background-color: bisque;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: left;
+    flex : 1 1 300px;
+    box-sizing: border-box;
+}
+.icon-star{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+.card h3{
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.card p{
+    font-size: 18px;
+    color: #818187;
+    text-align: left;
+}
+.avater{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+.avater h6{
+    margin: 0;
+    color: #757575;
+    font-size: 1em;
+    text-align: left;
+}
+.avater p{
+    margin: 0;
+    font-size: 1em;
+    text-align: left;
+}
+.avater-text{
+    padding: 5px;
+}
+.avater img{
+    border-radius: 50%;
 }
